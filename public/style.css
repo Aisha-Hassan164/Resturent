@@ -1,0 +1,693 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color: black;
+}
+.head
+{
+    background-color: rgb(29, 31, 31);
+    display: flex;
+    justify-content: space-between;
+  
+   position: fixed;
+   width: 100%;
+   top: 0;
+
+}
+.head ul
+{
+    margin: 20px;
+    display: flex;
+    list-style: none;
+
+}
+.head ul li a
+{
+    padding: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.head ul li a:hover
+{
+    color: rgb(228, 157, 5);
+}
+.head h1
+{
+    padding-left: 60px;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.cart
+{
+    padding-right: 60px;
+   font-size: 30px;
+   color: white;
+    margin: 20px; 
+}
+.homepage 
+{
+    margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.imaedisp img
+{
+    width: 600px;
+    height: 600px;
+}
+.text h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 40%;
+    font-size: 50px;
+    color: wheat;
+}
+.text p
+{
+    color: white;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.btn4
+{
+    width: 130px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    margin: 10px;
+  
+    margin-top: 20px;
+    animation: reverse;
+}
+.btn4 a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn4:hover
+{
+    background-color: rgb(88, 86, 86);
+     transition: ta;
+}
+
+/* ///aboutus// */
+.Textabout 
+{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+}
+.Textabout p
+{
+    padding-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Textabout h2
+{
+    font-size: 35px;
+ padding-top: 20px;
+ padding: 3px;
+}
+.btn3
+{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 6px;
+    width: 110px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.about img
+{
+    width: 100%;
+    height: 100%;
+}
+.aboutpage
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+    background-color: rgb(228, 157, 5);
+   
+}
+.usss h1
+{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 15%;
+}
+/* ///menu// */
+.textmenu 
+{
+    color: white;
+}
+.menu
+{
+    justify-content: space-around;
+
+    display: flex;
+    margin: 10%;
+    gap: 10px;
+}
+.classimge img
+{
+    height: 150px;
+   justify-content: center;
+   margin-left: 30px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+.classimge 
+{
+    border: 2px solid rgb(189, 129, 0);
+ 
+    padding: 10px;
+}
+.classimge:hover
+{
+    background-color: rgb(189, 129, 0);
+    transition: 0.5s;
+}
+.meutext 
+{
+    color: white;
+    text-align: center;
+  padding: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn
+{
+    margin-left: 31%;
+    width: 100px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(241, 206, 5);
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.classimge h3{
+    font-size: 26;
+}
+.classimge p
+{
+    font-size: 24px;
+}
+.h1menu h1
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    color: white;
+}
+
+/* ///product// */
+.productheader
+{
+    display: flex;
+    justify-content: center;
+margin-top: 60px;
+  
+}
+.productheader ul
+{
+    display: flex;
+    list-style: none;
+}
+.productheader ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.active-tabs
+{
+    position: relative;
+
+}
+.active-tabs::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0%;
+ 
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    background-color: rgb(245, 176, 28);
+    width: calc(100% + 2px);
+}
+.content
+{
+    position: relative;
+    display: none;
+}
+.active-tabs
+{
+    display: block;
+}
+.small-container  img
+{
+    height: 300px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.small-container  p
+{
+    color: white;
+}
+.small-container 
+{
+    border: 2px solid rgb(189, 129, 0);
+    background-color: rgb(248, 183, 43);
+    border-radius: 10px;
+
+}
+.small-container h3
+{
+    padding: 8px;
+    font-size: 24px;
+}
+.small-container p
+{
+    padding: 8px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.Main-container
+{
+    display:  flex;
+    justify-content: space-around;
+    margin: 10%;
+    gap: 10px;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.icons .btn1
+{
+    padding: 10px;
+    margin: 6px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 33px;
+    border-radius: 50%;
+}
+.icons h3
+{
+    font-size: 28px;
+    padding-top: 20px;
+}
+/* //contac// */
+.contact h1
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form
+{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+.kulan h2{
+    font-size: 40px;
+    color: rgb(248, 183, 43);
+}
+.kulan p
+{
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+.adres h2{
+    font-size: 40px;
+    color: rgb(248, 183, 43);
+}
+.adres p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.cotact h2{
+    font-size: 40px;
+    color: rgb(248, 183, 43);
+}
+.cotact p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.ofice h2{
+    font-size: 40px;
+    color: rgb(248, 183, 43);
+}
+.ofice p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.subsc p
+{
+    font-family:serif;
+    padding-top: 15px;
+font-family: sans-serif;
+}
+.subsc input
+{
+
+    padding: 15px;
+    margin-top: 20px;
+     border: none;
+     border-radius: 5px;
+}
+.btn2
+{
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(248, 183, 43);
+    border-radius: 8px;
+    width: 70px;
+    color: white;
+}
+hr
+{
+    margin: 5%;
+}
+.foter p
+{
+    color: white;
+}
+.foter
+{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.foticon
+{
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    color: orange;
+}
+
+.menuicon
+{
+    color: white;
+    font-size: 40px;
+    display: none;
+    visibility: hidden;
+}
+.menclose
+{
+    color: white;
+    font-size: 40px;
+   overflow:visible;
+}
+/* ///responsive// */
+@media screen and (max-width:600px){
+    .head h1
+    {
+        padding-left: 5px;
+        margin: 20px;
+        font-size: 40px;
+    }
+
+
+
+    .head ul
+{
+   
+    display: block;
+    list-style: none;
+    background-color: orange;
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    padding-top: 50px;
+    z-index: 2;
+    display: none;
+    width: 100%;
+}
+
+.head ul li
+{
+    
+    padding: 20px;
+}
+.menuicon
+{
+    display: block;
+    margin-top: 15px;
+    visibility: visible;
+    margin-right: 20px;
+}
+.menclose
+{
+  right: 20px;
+  display: block;
+  margin-left: 40%;
+  margin-top: -10%;
+}
+
+
+
+.btn4
+{
+    width: 130px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    margin: 1px;
+  margin-left: 30%;
+    margin-bottom: 40px;
+    animation: reverse;
+}
+    .homepage 
+    {
+        margin-top: 4%;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .imaedisp img
+    {
+        width: 400px;
+        height: 600px;
+        margin-left: 5%;
+    }
+    .text h1
+    {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        padding-top: 70%;
+        font-size: 40px;
+        color: wheat;
+        padding-bottom: 50px;
+        text-align: center;
+    } 
+    /* //abot// */
+    .Textabout 
+{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+}
+.Textabout p
+{
+    padding-top: 40px;
+}
+.about img
+{
+    width: 100%;
+    height: 100%;
+}
+.aboutpage
+{
+   flex-direction: column;
+    justify-content: space-around;
+    margin: 10%;
+    background-color: rgb(236, 170, 27);
+   
+}
+.usss h1
+{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 15%;
+}
+/* //menu// */
+.textmenu 
+{
+    color: white;
+}
+.menu
+{
+    justify-content: space-around;
+
+    flex-direction: column;
+    margin: 10%;
+    gap: 20px;
+    width: 80%;
+}
+.classimge img
+{
+    height: 150px;
+   justify-content: center;
+   margin-left: 30px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+.classimge 
+{
+    border: 2px solid rgb(189, 129, 0);
+ 
+    padding: 10px;
+}
+.meutext 
+{
+    color: white;
+    text-align: center;
+  padding: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn
+{
+    margin-left: 31%;
+    width: 100px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(241, 206, 5);
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* //product// */
+.small-container  img
+{
+    height: 300px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.small-container  p
+{
+    color: white;
+}
+.small-container 
+{
+    border: 2px solid rgb(189, 129, 0);
+    background-color: rgb(248, 183, 43);
+    border-radius: 10px;
+
+}
+.small-container h3
+{
+    padding: 8px;
+    font-size: 24px;
+}
+.small-container p
+{
+    padding: 8px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.Main-container
+{
+  flex-direction: column;
+    justify-content: space-around;
+    margin: 10%;
+    gap: 20px;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.icons .btn1
+{
+    padding: 10px;
+    margin: 6px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 33px;
+    border-radius: 50%;
+}
+/* //contact// */
+.form
+{
+    color: white;
+   display: grid;
+   grid-template-columns: 200px 200px;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+.productheader ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.foter
+{
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+}
+
+
